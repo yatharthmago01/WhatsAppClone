@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">WhatsApp Clone</string>
+    <string name="welcome_to_whatsapp">Welcome to WhatsApp</string>
+    <string name="verify_your_number">Verify Your Number</string>
+    <string name="get_verification_code">Please enter your mobile number.You will get a SMS including a verification code.</string>
+    <string name="waiting_to_detect_sms">Waiting to automatically detect an SMS sent to\n %s Wrong number?</string>
+    <string name="send_verification_code">send verification code</string>
+    <string name="resend_sms">Resend SMS</string>
+    <string name="enter_6_digit_code">Enter 6-digit code</string>
+    <string name="otp_hint">------</string>
+    <string name="next">next</string>
+    <string name="verify_number">Verify %s</string>
+    <string name="seconds_remaining">Seconds remaining: %d</string>
+    <string name="verify_code">Verify Code</string>
+    <string name="name_and_profile_photo">Please provide your name and profile photo</string>
+    <string name="profile_info">Profile Info</string>
+    <string name="type_your_name_here">Type your name here</string>
+    <string name="hey_there">Hey there, I am using WhatsApp!</string>
+    <string name="_2_6_21">2/6/21</string>
+    <string name="yatharth_mago">Yatharth Mago</string>
+    <string name="people">People</string>
+    <string name="chats">Chats</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+</resources>

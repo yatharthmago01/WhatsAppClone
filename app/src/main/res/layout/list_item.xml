@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/userImgView"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_default_avatar"
+        app:shapeAppearanceOverlay="@style/CircularImageView"/>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginStart="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginEnd="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/titleTv"
+                android:lines="1"
+                android:text="@string/yatharth_mago"
+                android:textSize="19sp"
+                android:ellipsize="end"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginEnd="12dp"
+                android:textColor="@color/black"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/timeTv"
+                android:text="@string/_2_6_21"
+                android:textSize="15sp"
+                android:ellipsize="end"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:textColor="@color/black"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginEnd="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/subtitleTv"
+                android:lines="1"
+                android:textSize="14sp"
+                android:ellipsize="end"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginEnd="12dp"
+                android:textColor="@color/black"
+                android:text="@string/hey_there"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/countTv"
+                tools:text="6"
+                android:textSize="15sp"
+                android:ellipsize="end"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/count_background"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
